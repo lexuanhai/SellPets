@@ -12,10 +12,9 @@ namespace Domain
     {
         [Column(TypeName = "nvarchar(250)")]
         public string? Code { get; set; }
-        public int? CustomerId { get; set; }
-        [ForeignKey("CustomerId")]
-        public Customers? Customers { get; set; }
-
+        public int? UserId { get; set; }
+        [ForeignKey("UserId")]
+        public Users? Users { get; set; }
         [Column(TypeName = "nvarchar(500)")]
         public string? Note { get; set; }
         public int? Review { get; set; }

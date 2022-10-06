@@ -23,13 +23,7 @@ E:\Hoc-Tap\Sell Pets\TECH\Service\bin\Debug\net6.0\Service.deps.json
 E:\Hoc-Tap\Sell Pets\TECH\Service\bin\Debug\net6.0\Service.dll
 E:\Hoc-Tap\Sell Pets\TECH\Service\bin\Debug\net6.0\Service.pdb
 E:\Hoc-Tap\Sell Pets\TECH\Service\bin\Debug\net6.0\Domain.dll
-E:\Hoc-Tap\Sell Pets\TECH\Service\bin\Debug\net6.0\Dto.dll
-E:\Hoc-Tap\Sell Pets\TECH\Service\bin\Debug\net6.0\Reponsitory.dll
-E:\Hoc-Tap\Sell Pets\TECH\Service\bin\Debug\net6.0\Common.dll
 E:\Hoc-Tap\Sell Pets\TECH\Service\bin\Debug\net6.0\Domain.pdb
-E:\Hoc-Tap\Sell Pets\TECH\Service\bin\Debug\net6.0\Dto.pdb
-E:\Hoc-Tap\Sell Pets\TECH\Service\bin\Debug\net6.0\Reponsitory.pdb
-E:\Hoc-Tap\Sell Pets\TECH\Service\bin\Debug\net6.0\Common.pdb
 E:\Hoc-Tap\Sell Pets\TECH\Service\obj\Debug\net6.0\Service.csproj.AssemblyReference.cache
 E:\Hoc-Tap\Sell Pets\TECH\Service\obj\Debug\net6.0\Service.GeneratedMSBuildEditorConfig.editorconfig
 E:\Hoc-Tap\Sell Pets\TECH\Service\obj\Debug\net6.0\Service.AssemblyInfoInputs.cache
@@ -40,3 +34,9 @@ E:\Hoc-Tap\Sell Pets\TECH\Service\obj\Debug\net6.0\Service.dll
 E:\Hoc-Tap\Sell Pets\TECH\Service\obj\Debug\net6.0\refint\Service.dll
 E:\Hoc-Tap\Sell Pets\TECH\Service\obj\Debug\net6.0\Service.pdb
 E:\Hoc-Tap\Sell Pets\TECH\Service\obj\Debug\net6.0\ref\Service.dll
+E:\Hoc-Tap\Sell Pets\TECH\Service\bin\Debug\net6.0\Dto.dll
+E:\Hoc-Tap\Sell Pets\TECH\Service\bin\Debug\net6.0\Reponsitory.dll
+E:\Hoc-Tap\Sell Pets\TECH\Service\bin\Debug\net6.0\Common.dll
+E:\Hoc-Tap\Sell Pets\TECH\Service\bin\Debug\net6.0\Dto.pdb
+E:\Hoc-Tap\Sell Pets\TECH\Service\bin\Debug\net6.0\Reponsitory.pdb
+E:\Hoc-Tap\Sell Pets\TECH\Service\bin\Debug\net6.0\Common.pdb

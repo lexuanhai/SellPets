@@ -7,45 +7,26 @@ using System.Text;
 
 namespace Domain
 {
-    [Table("products")]
+    [Table("Products")]
     public class Products : BaseEntity<int>
     {
         [Column(TypeName = "nvarchar(250)")]
-        public string? name { get; set; }
-
-        public int? category_id { get; set; }
-        [ForeignKey("category_id")]
+        public string? Name { get; set; }
+        public int? CategoryId { get; set; }
+        [ForeignKey("CategoryId")]
         public Category? Category { get; set; }
-
-
-        [Column(TypeName = "varchar(200)")]
-        public string? slug { get; set; }
-
-        [Column(TypeName = "varchar(200)")]
-        public string? avatar { get; set; }
-
-        public decimal price { get; set; }
-
-        public string? color { get; set; }
-
-        public int quantity { get; set; }
-
+        [Column(TypeName = "decimal(18,0)")]
+        public decimal? Price { get; set; }
         [Column(TypeName = "nvarchar(max)")]
-        public string? short_desc { get; set; }
-
-        [Column(TypeName = "nvarchar(max)")]
-        public string? description { get; set; }
-
-        [Column(TypeName = "nvarchar(max)")]
-        public string? specifications { get; set; }
-
-        [Column(TypeName = "varchar(250)")]
-        public string? endow { get; set; }
-        
-        public int? status { get; set; }
-
-        public int? type { get; set; }
-
-        public int? differentiate { get; set; }
+        public string? Description { get; set; }
+        [Column(TypeName = "nvarchar(250)")]
+        public string? HairStyle { get; set; }
+        [Column(TypeName = "nvarchar(250)")]
+        public string? Weight { get; set; }
+        public int? Longevity { get; set; }
+        public int? ReproductiveAge { get; set; } // tuổi sinh sản
+        [Column(TypeName = "nvarchar(250)")]
+        public string? NumberOfSpawns { get; set; }
+        public int? Status { get; set; }
     }
 }

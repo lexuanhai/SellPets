@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{D7B71ED1-63DE-4DF4-B1A4-A6154D406D47}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "reactproject1", "reactproject1\reactproject1.esproj", "{85B17E76-0992-4728-9AE2-1A41A12F8BE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,12 @@ Global
 		{D7B71ED1-63DE-4DF4-B1A4-A6154D406D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7B71ED1-63DE-4DF4-B1A4-A6154D406D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7B71ED1-63DE-4DF4-B1A4-A6154D406D47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85B17E76-0992-4728-9AE2-1A41A12F8BE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85B17E76-0992-4728-9AE2-1A41A12F8BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85B17E76-0992-4728-9AE2-1A41A12F8BE1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{85B17E76-0992-4728-9AE2-1A41A12F8BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85B17E76-0992-4728-9AE2-1A41A12F8BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85B17E76-0992-4728-9AE2-1A41A12F8BE1}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +70,7 @@ Global
 		{6930B4C5-AA3C-4271-9E0A-900E5E1552A2} = {E8CD405E-013E-406E-A24E-4918BFDDE376}
 		{B45289B4-104A-4A81-842C-77AD1D241108} = {1A985C3F-5C24-45B7-A49F-DEEAD166AD37}
 		{D7B71ED1-63DE-4DF4-B1A4-A6154D406D47} = {E8CD405E-013E-406E-A24E-4918BFDDE376}
+		{85B17E76-0992-4728-9AE2-1A41A12F8BE1} = {35081B6E-8695-46D6-8BAA-F5CCE90BEC6F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB31EDA3-5789-4F12-9488-F6EB5D18028D}

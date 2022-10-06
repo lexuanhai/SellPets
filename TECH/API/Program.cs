@@ -1,12 +1,9 @@
-﻿
-
-using Microsoft.AspNetCore.Authentication.JwtBearer;
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using API.Models;
 using System.Text;
-using Reponsitory;
-using Service;
+//using Reponsitory;
 using Domain;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -24,7 +21,7 @@ builder.Services.AddMvc().AddJsonOptions(o =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<DatabaseContext>(options =>
+builder.Services.AddDbContext<DataBaseEntityContext>(options =>
 {
     // Đọc chuỗi kết nối
     string connectstring = builder.Configuration.GetConnectionString("AppDbContext");
@@ -40,10 +37,10 @@ builder.Services.AddDbContext<DatabaseContext>(options =>
 //var secretKey = builder.Configuration["AppSettings:SecretKey"];
 //var secretKeyBytes = Encoding.UTF8.GetBytes(secretKey);
 
-builder.Services.AddScoped<ICategoryReponsitory, CategoryReponsitory>();
-builder.Services.AddScoped<IAppUserReponsitory, AppUserReponsitory>();
-builder.Services.AddScoped<ICategoryService, CategoryService>();
-builder.Services.AddScoped<IAppUserService, AppUserService>();
+//builder.Services.AddScoped<ICategoryReponsitory, CategoryReponsitory>();
+//builder.Services.AddScoped<IAppUserReponsitory, AppUserReponsitory>();
+//builder.Services.AddScoped<ICategoryService, CategoryService>();
+//builder.Services.AddScoped<IAppUserService, AppUserService>();
 
 //builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 //    .AddJwtBearer(opt =>

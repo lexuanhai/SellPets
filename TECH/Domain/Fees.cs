@@ -21,7 +21,7 @@ namespace Domain
         public int? Ward_id { get; set; }
         [ForeignKey("Ward_id")]
         public Wards? Wards { get; set; }
-
+        [Column(TypeName = "decimal(18,0)")]
         public decimal? fee { get; set; }
 
     }

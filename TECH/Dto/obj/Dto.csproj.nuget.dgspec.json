@@ -1,32 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "C:\\hoc tap\\Pets\\TECH\\Dto\\Dto.csproj": {}
+    "E:\\Hoc-Tap\\Sell Pets\\TECH\\Dto\\Dto.csproj": {}
   },
   "projects": {
-    "C:\\hoc tap\\Pets\\TECH\\Common\\Common.csproj": {
+    "E:\\Hoc-Tap\\Sell Pets\\TECH\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\hoc tap\\Pets\\TECH\\Common\\Common.csproj",
+        "projectUniqueName": "E:\\Hoc-Tap\\Sell Pets\\TECH\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\hoc tap\\Pets\\TECH\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\ttimem15\\.nuget\\packages\\",
-        "outputPath": "C:\\hoc tap\\Pets\\TECH\\Common\\obj\\",
+        "projectPath": "E:\\Hoc-Tap\\Sell Pets\\TECH\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\emcua\\.nuget\\packages\\",
+        "outputPath": "E:\\Hoc-Tap\\Sell Pets\\TECH\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\ttimem15\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\emcua\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,7 +58,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -65,41 +68,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\hoc tap\\Pets\\TECH\\Dto\\Dto.csproj": {
+    "E:\\Hoc-Tap\\Sell Pets\\TECH\\Dto\\Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\hoc tap\\Pets\\TECH\\Dto\\Dto.csproj",
+        "projectUniqueName": "E:\\Hoc-Tap\\Sell Pets\\TECH\\Dto\\Dto.csproj",
         "projectName": "Dto",
-        "projectPath": "C:\\hoc tap\\Pets\\TECH\\Dto\\Dto.csproj",
-        "packagesPath": "C:\\Users\\ttimem15\\.nuget\\packages\\",
-        "outputPath": "C:\\hoc tap\\Pets\\TECH\\Dto\\obj\\",
+        "projectPath": "E:\\Hoc-Tap\\Sell Pets\\TECH\\Dto\\Dto.csproj",
+        "packagesPath": "C:\\Users\\emcua\\.nuget\\packages\\",
+        "outputPath": "E:\\Hoc-Tap\\Sell Pets\\TECH\\Dto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\ttimem15\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\emcua\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\hoc tap\\Pets\\TECH\\Common\\Common.csproj": {
-                "projectPath": "C:\\hoc tap\\Pets\\TECH\\Common\\Common.csproj"
+              "E:\\Hoc-Tap\\Sell Pets\\TECH\\Common\\Common.csproj": {
+                "projectPath": "E:\\Hoc-Tap\\Sell Pets\\TECH\\Common\\Common.csproj"
               }
             }
           }
@@ -135,7 +140,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -144,7 +150,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

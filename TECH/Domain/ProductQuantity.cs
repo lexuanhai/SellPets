@@ -24,5 +24,6 @@ namespace Domain
         public int? ProductId { get; set; }
         [ForeignKey("ProductId")]
         public Products? Products { get; set; }
+        public bool IsDeleted { get; set; }
     }
 }

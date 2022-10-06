@@ -14,6 +14,8 @@ namespace Domain
         [Key]
         public int Id { get; set; }               
         public int? ProductId { get; set; }
-        public int? AppImageId { get; set; }
+        [Column(TypeName = "varchar(500)")]
+        public string? Images { get; set; }
+        public bool? IsDeleted { get; set; }
     }
 }

@@ -12,8 +12,8 @@ namespace Domain
     {
         [Key]
         public T Id { get; set; }
-        public bool IsDeleted { get; set; } = false;
-        public DateTime? CreatedDate { get; set; } = DateTime.Now;
+        public bool IsDeleted { get; set; }
+        public DateTime? CreatedDate { get; set; }
         [Column(TypeName = "nvarchar(500)")]
         public string? CreatedBy { get; set; }
         public DateTime? UpdatedDate { get; set; }

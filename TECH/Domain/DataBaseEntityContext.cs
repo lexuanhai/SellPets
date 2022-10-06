@@ -10,22 +10,18 @@ namespace Domain
     {
         public DataBaseEntityContext(DbContextOptions<DataBaseEntityContext> options) : base(options) { }
 
-        public DbSet<Users> users { set; get; }
-        public DbSet<Contracts> contacts { set; get; }
-        public DbSet<Category> categories { set; get; }
-        public DbSet<Products> products { set; get; }
-        public DbSet<Posts> posts { set; get; }
-        public DbSet<Orders> orders { set; get; }
-        public DbSet<Reviews> reviews { set; get; }
-        public DbSet<Fees> fees { set; get; }
-        public DbSet<City> cities { set; get; }
-        public DbSet<OrdersDetails> order_details { set; get; }
-
-        public DbSet<Districts> districts { set; get; }
-        public DbSet<Wards> wards { set; get; }
-        public DbSet<Carts> carts { set; get; }
-        public DbSet<Siders> siders { set; get; }
-        public DbSet<Advertisement> advertisement { set; get; }
+        public DbSet<Users> Users { set; get; }
+        public DbSet<Contracts> Contracts { set; get; }
+        public DbSet<Category> Categories { set; get; }
+        public DbSet<Products> Products { set; get; }
+        public DbSet<Orders> Orders { set; get; }
+        public DbSet<Reviews> Reviews { set; get; }
+        public DbSet<Fees> Fees { set; get; }
+        public DbSet<City> Cities { set; get; }
+        public DbSet<OrdersDetails> OrdersDetails { set; get; }
+        public DbSet<Districts> Districts { set; get; }
+        public DbSet<Wards> Wards { set; get; }
+        //public DbSet<Siders> siders { set; get; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);            
