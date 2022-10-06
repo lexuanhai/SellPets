@@ -16,10 +16,13 @@ namespace Domain
         public int? TotalImported { get; set; }
         public int? TotalSold { get; set; }
         public int? TotalStock { get; set; }
-        public int? TotalExpired { get; set; } // Tổng sản phẩm hết hạn
 
         // các trường khóa ngoại
-        public int? ColorId { get; set; }
+        public int? AppColorId { get; set; }
+        [ForeignKey("AppColorId")]
+        public AppColor? AppColor { get; set; }
         public int? ProductId { get; set; }
+        [ForeignKey("ProductId")]
+        public Products? Products { get; set; }
     }
 }
