@@ -1,2 +1,0 @@
-E:\Hoc-Tap\Sell Pets\TECH\reactproject1\obj\Debug\reactproject1.esproj.SuggestedBindingRedirects.cache
-E:\Hoc-Tap\Sell Pets\TECH\reactproject1\obj\Debug\reactproject1.esproj.CoreCompileInputs.cache
